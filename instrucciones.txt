@@ -1,0 +1,10 @@
+Configuracion de la conexion
+BD: laravel
+usuario: seminario
+pws: Seminario$
+
+Debe crearlos en el servidor mysql
+
+create database laravel;
+create user 'seminario'@'%' identified by 'Seminario$';
+grant all privileges on laravel.* to 'seminario'@'%';
